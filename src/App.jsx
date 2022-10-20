@@ -8,9 +8,9 @@ i18n
   .use(initReactI18next)
   .use(HttpBackend)
   .init({
-    backend: { loadPath: "/translations/{{lng}}.json" },
+    backend: { loadPath: "{{lng}}/public/translations/{{lng}}.json" },
     lng: "en",
-    fallbackLng: "my",
+    fallbackLng: "en",
     interpolation: { escapeValue: false },
   });
 
@@ -34,8 +34,9 @@ const App = () => {
           <p>{t("changed", { count })}</p>
           <select name="language" onChange={onChange}>
             <option value="en">English</option>
-            {/* <option value="fr">French</option> */}
+            <option value="ja">Japan</option>
             <option value="my">Myanmar</option>
+            <option value="th">Thai</option>
           </select>
         </header>
       </div>

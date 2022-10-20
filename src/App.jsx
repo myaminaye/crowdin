@@ -10,7 +10,7 @@ i18n
   .init({
     backend: { loadPath: "/translations/{{lng}}.json" },
     lng: "en",
-    fallbackLng: "en",
+    fallbackLng: "my",
     interpolation: { escapeValue: false },
   });
 
@@ -34,7 +34,8 @@ const App = () => {
           <p>{t("changed", { count })}</p>
           <select name="language" onChange={onChange}>
             <option value="en">English</option>
-            <option value="fr">French</option>
+            {/* <option value="fr">French</option> */}
+            <option value="my">Myanmar</option>
           </select>
         </header>
       </div>

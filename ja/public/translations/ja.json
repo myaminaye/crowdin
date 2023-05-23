@@ -1,6 +1,6 @@
 {
-  "welcome": "ようこそ！",
-  "sampleText": "サンプル <bold><italic>テキスト</italic></bold>。",
-  "changed_one": "言語 {{count}} 時間を変更しました",
-  "changed_other": "言語を {{count}} 回変更しました"
+  "welcome": "Welcome!",
+  "sampleText": "Sample <bold><italic>text</italic></bold>.",
+  "changed_one": "You have changed the language {{count}} time",
+  "changed_other": "You have changed the language {{count}} times"
 }

@@ -1,6 +1,6 @@
 {
-  "welcome": "မင်္ဂလာပါ ",
-  "sampleText": "<bold><italic>စာသား</italic></bold>။",
-  "changed_one": "သင်သည် ဘာသာစကား {{count}} ကြိမ်ကို ပြောင်းလဲလိုက်ပါပြီ။",
-  "changed_other": "သင်သည် ဘာသာစကား {{count}} ကြိမ်ကို ပြောင်းလဲလိုက်ပါပြီ။"
+  "welcome": "Welcome!",
+  "sampleText": "Sample <bold><italic>text</italic></bold>.",
+  "changed_one": "You have changed the language {{count}} time",
+  "changed_other": "You have changed the language {{count}} times"
 }

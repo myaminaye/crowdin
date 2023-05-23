@@ -1,6 +1,6 @@
 {
-  "welcome": "ยินดีต้อนรับ",
-  "sampleText": "ตัวอย่าง <bold><italic>ข้อความ</italic></bold>",
-  "changed_one": "คุณได้เปลี่ยนภาษา {{count}} ครั้ง",
-  "changed_other": "คุณได้เปลี่ยนภาษา {{count}} ครั้ง"
+  "welcome": "Welcome!",
+  "sampleText": "Sample <bold><italic>text</italic></bold>.",
+  "changed_one": "You have changed the language {{count}} time",
+  "changed_other": "You have changed the language {{count}} times"
 }
